@@ -1,0 +1,44 @@
+.homepage__examples{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    margin: 0 -4rem 0 -4rem;
+}
+
+.homepage__examples-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 2rem  0 1rem 0;
+}
+
+.homepage__examples-heading h4{
+    margin-top: 0.5rem;
+}
+
+.homepage__examples button{
+        align-items: center;
+        border-color: transparent;
+        display: inline-flex;
+        width: 220px;
+
+
+        border-radius: 0.25rem;
+        border-width: 1px;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        padding: 0.5rem 0.75rem;
+        margin: 0.5rem 0 0.5rem 0;
+}
+
+
+@media screen and (max-width: 650px){
+
+    .homepage__examples-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
