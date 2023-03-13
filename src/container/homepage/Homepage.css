@@ -19,9 +19,9 @@
 .app__homepage section{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     margin-inline: auto;
-    border-color: red;
+
+    padding: 0 5rem 0 5rem;
 }
 
 .app__homepage footer{
@@ -53,8 +53,9 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 900px) {
     .app__homepage section{
         flex-direction: column;
+
     }
 }
