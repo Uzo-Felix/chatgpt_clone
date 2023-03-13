@@ -9,7 +9,7 @@ const Capabilities = () => {
         <MdElectricBolt />
         <h4>Capabilities</h4>
       </div>
-      <div className="homepage__examples-content">
+      <div className="homepage__examples-content inactive">
         <button>Remembers what user said earlier in the conversation</button>
         <button>Allows user to provide follow-up corrections</button>
         <button>Trained to decline inappropriate requests</button>

@@ -31,7 +31,15 @@
         padding: 0.5rem 0.5rem;
         margin: 0.5rem 0 0.5rem 0;
 }
+ 
+.sample button:hover{
+    background-color: var(--color-grey);
+    cursor: pointer;
+}
 
+.inactive button{
+    cursor: not-allowed;
+}
 
 @media screen and (max-width: 650px){
 

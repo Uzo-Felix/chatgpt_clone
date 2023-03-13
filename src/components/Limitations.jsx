@@ -9,7 +9,7 @@ const Limitations = () => {
         <VscWarning />
         <h4>Limitations</h4>
       </div>
-      <div className="homepage__examples-content">
+      <div className="homepage__examples-content inactive">
         <button>May occasionally generate incorrect information</button>
         <button>May occasionally produce harmful instructions or biased content</button>
         <button>Limited knowledge of world and events after 2021</button>

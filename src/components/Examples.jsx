@@ -9,7 +9,7 @@ const Examples = () => {
         <BsSun />
         <h4>Examples</h4>
       </div>
-      <div className="homepage__examples-content">
+      <div className="homepage__examples-content sample">
         <button>"Explain quantum computing in simple terms" →</button>
         <button>"Got any creative ideas for a 10 year old's birthday?" →</button>
         <button>"How do I make an HTTP request in Javascript?" →</button>      
