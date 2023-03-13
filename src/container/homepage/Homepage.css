@@ -13,13 +13,12 @@
     justify-content:center;
     flex-direction: column;
     color: rgb(75, 71, 71);
-    margin: 5rem 7rem 0 7rem;
+    margin: 5rem 6rem 0 6rem;
 }
 
 .app__homepage section{
     display: flex;
     flex-direction: row;
-    margin-inline: auto;
     flex-wrap: wrap;
 
     padding: 0 5rem 0 5rem;

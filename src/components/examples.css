@@ -18,6 +18,12 @@
     margin-top: 0.5rem;
 }
 
+.homepage__examples-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .homepage__examples button{
         align-items: center;
         border-color: transparent;
@@ -43,9 +49,4 @@
 
 @media screen and (max-width: 650px){
 
-    .homepage__examples-content{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 }
