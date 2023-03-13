@@ -1,0 +1,104 @@
+.navbar, nav{
+    flex:0.2;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: rgb(39, 36, 36);
+}
+
+.navbar__chat {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar__chat button{
+    text-align:left;
+    background-color: rgb(39, 36, 36) ;
+    color: rgba(245, 245, 245, 0.877);
+    border-style:groove;
+    border-color: var(--color-gray);
+
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    margin: 0.5rem 0.5rem 1rem 0.5rem;
+    border-radius: 5px;
+}
+
+.navbar__chat p{
+    text-align: center;
+    color: rgb(148, 146, 146);
+    font-size: 0.8rem;
+    margin:0 0.5rem 0 0.5rem;
+}
+
+.navbar__action{
+    border-top: 1px solid rgb(80, 76, 76);
+}
+
+.navbar__action button{
+    border-radius: 3px;
+    background-color: rgb(204, 204, 10);
+    border: none;
+    align-self: flex-start;
+    margin-left: 1.5rem;
+
+
+    padding: 0.1rem 0.1rem 0.1rem 0.1rem;
+    font-size: 0.7rem;
+}
+
+
+.navbar__action p{
+    font-size: 0.8rem;
+    margin: 0 1rem 0 1rem;
+
+}
+.navbar__action-content {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin: 0 0 0.5rem 0.5rem;
+
+    
+    
+    padding-top: 1rem;
+}
+
+
+.navbar__action-content:hover{
+    background-color: rgb(61, 58, 58);
+    border-radius: 5px;
+}
+navbar__action-content__icon{
+    font-size: 2rem;
+}
+
+.app__nav{
+    display: none;
+}
+
+.close{
+    position: absolute;
+    left: 10rem;
+    font-size: 1.5rem;
+    border: 2px solid gray;
+
+    z-index: 5;
+}
+@media screen and (min-width: 2000px) {
+    
+}
+
+@media screen and (max-width: 1150px) {
+    
+}
+
+@media screen and (max-width: 650px) {
+    .navbar{
+        display: none;
+    }
+    .app__nav{
+        display: flex;
+    }
+ }
+    

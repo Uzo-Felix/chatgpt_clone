@@ -1,0 +1,60 @@
+.app__homepage{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    justify-content: space-between;
+}
+
+.app__homepage-sample{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    color: rgb(75, 71, 71);
+    margin: 5rem 7rem 0 7rem;
+}
+
+.app__homepage section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-inline: auto;
+    border-color: red;
+}
+
+.app__homepage footer{
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    color: var(--color-gray);
+}
+
+.app__homepage input{
+    width: 50%;
+    height: 35px;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    border-style: none;
+    box-shadow: 0 0 10px #ccc;
+
+    padding-right: 30px;
+}
+
+.footer-input{
+    position: relative;
+}
+
+.footer-icon{
+    position: absolute;
+    top: 30%;
+    right: 300px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+    .app__homepage section{
+        flex-direction: column;
+    }
+}
